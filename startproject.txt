@@ -1,5 +1,7 @@
-primer proyecto de servicio php 11 colegio
-
-primer paso login
-
-segundo usuario
+- /school-system/
+  ├── css/         (Estilos)
+  ├── js/          (JavaScript)
+  ├── includes/    (Funciones PHP)
+  ├── admin/       (Panel admin)
+  ├── profesores/  (Panel profesores)
+  └── alumnos/     (Acceso alumnos)
