@@ -5,3 +5,10 @@
   ├── admin/       (Panel admin)
   ├── profesores/  (Panel profesores)
   └── alumnos/     (Acceso alumnos)
+
+  alumnos ──┐
+          ├─ matriculas ── cursos
+profesores ──┘
+          │
+          ├─ calificaciones
+          └─ asistencia
