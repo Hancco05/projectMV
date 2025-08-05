@@ -11,4 +11,4 @@
 profesores ──┘
           │
           ├─ calificaciones
-          └─ asistencia
+          └─ asistencias
