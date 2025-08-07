@@ -12,3 +12,14 @@ profesores ──┘
           │
           ├─ calificaciones
           └─ asistencias1
+
+          /sistema-colegio/
+├── assets/              # CSS/JS/imágenes
+├── includes/
+│   ├── db.php           # Conexión MySQL
+│   ├── auth.php         # Autenticación
+│   └── functions.php    # Funciones helpers
+├── admin/               # Panel admin (dashboard, CRUDs)
+├── profes/              # Panel profes (notas, asistencia)
+├── alumnos/             # Panel alumnos (ver notas, mensajes)
+└── index.php            # Login inicial
