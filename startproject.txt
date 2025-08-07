@@ -23,3 +23,5 @@ profesores ──┘
 ├── profes/              # Panel profes (notas, asistencia)
 ├── alumnos/             # Panel alumnos (ver notas, mensajes)
 └── index.php            # Login inicial
+
+seguir
