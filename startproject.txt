@@ -24,4 +24,4 @@ profesores ──┘
 ├── alumnos/             # Panel alumnos (ver notas, mensajes)
 └── index.php            # Login inicial
 
-seguir
+seguir222
