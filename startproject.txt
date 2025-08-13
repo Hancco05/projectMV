@@ -27,3 +27,50 @@ profesores ──┘
 seguir222
 
 continuar1
+
+sistema_escolar/
+├── **assets/**
+│   ├── css/
+│   └── js/
+│
+├── **includes/**
+│   ├── db.php
+│   ├── auth.php
+│   ├── functions.php
+│   └── headers.php
+│
+├── **admin/**
+│   ├── dashboard.php
+│   ├── alumnos/
+│   │   ├── listar.php
+│   │   ├── editar.php
+│   │   └── eliminar.php
+│   ├── profesores/
+│   │   └── listar.php
+│   └── **pagos/**               # ✨ NUEVO
+│       ├── registrar.php
+│       ├── listar.php
+│       └── recibos/
+│           └── generar.php
+│
+├── **profes/**
+│   ├── notas.php
+│   ├── asistencia.php
+│   ├── mensajes.php
+│   └── **horario/**            # ✨ NUEVO
+│       ├── gestionar.php       # Drag & Drop
+│       └── ver.php             # Vista alumno
+│
+├── **alumnos/**
+│   ├── calificaciones.php
+│   ├── perfil.php
+│   └── **pagos/**              # ✨ NUEVO
+│       └── historial.php
+│
+├── **api/**                    # ✨ NUEVO
+│   ├── stripe/
+│   │   └── webhook.php         # Para pagos online
+│   └── google/
+│       └── calendar-sync.php
+│
+└── index.php
