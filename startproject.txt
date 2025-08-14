@@ -74,3 +74,5 @@ sistema_escolar/
 │       └── calendar-sync.php
 │
 └── index.php
+
+verificar--
